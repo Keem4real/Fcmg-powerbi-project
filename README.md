@@ -4,6 +4,7 @@ Problem Statement
 This report helps the Stakeholder understand their customers better. It helps the stakeholder to know what product is doing well and the ones not doing well, the stock out duration and how to fix it, weather impact on sales, is promotion effective, does holiday affect sales, weekday or weekend which one generate more income. Through different report and visuals, they get to know their improvement area, & thus they can improve their services by identifying these area.
 
 Steps followed
+
 Step 1 : Load data into Power BI Desktop, from Microsoft sql server.
 Step 2 : Open power query editor & in view tab under Data preview section, check "column distribution", "column quality" & "column profile" options.
 Step 3 : Also since by default, profile will be opened only for 1000 rows so you need to select "column profiling based on entire dataset".
@@ -13,10 +14,12 @@ Step 6 : I split the supplier id column by delimiter to separate the numbers fro
 Step 7 : After the split I now have two column, I deleted the columns with zero.
 Step 8 : Add a prefix of 's' to the other column with numbers and change the data type to text.
 Step 9 : Save and close power query.
+
 The entire report consist of 6 pages and each pages tells a unique business story
 
 Step 10 : In the report view, under the insert tab, using shapes option from elements group a rectangle was inserted & the title of the report was written.
 Step 11 : Calculated column was created in which, Holiday status were grouped into various two groups(No holiday and holiday).
+
 for creating new column following DAX expression was written;
 
 Holiday Status = IF('fmcg_sales_3years_1M_rows'[is_holiday]=FALSE()," No Holiday","Holiday")
