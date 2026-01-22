@@ -1,4 +1,5 @@
 Fmcg-Report
+
 Problem Statement
 This report helps the Stakeholder understand their customers better. It helps the stakeholder to know what product is doing well and the ones not doing well, the stock out duration and how to fix it, weather impact on sales, is promotion effective, does holiday affect sales, weekday or weekend which one generate more income. Through different report and visuals, they get to know their improvement area, & thus they can improve their services by identifying these area.
 
